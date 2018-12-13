@@ -18,10 +18,6 @@ nav {
   animation-name: fadeInDown;
   animation-duration: 1s; }
 
-#Spica :hover {
-  background-color: aqua;
-  color: white; }
-
 .first {
   width: 1000px;
   height: 500px;
@@ -30,6 +26,21 @@ nav {
   background-color: rgba(173, 216, 230, 0.788);
   animation-name: jackInTheBox;
   animation-duration: 1s; }
+
+article {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(173, 216, 230, 0.788);
+  animation-name: jackInTheBox;
+  animation-duration: 1s; }
+
+.cycle-slideshow {
+  width: 50px;
+  height: 20px;
+  text-align: justify;
+  display: inline-block; }
 
 @keyframes jackInTheBox {
   from {
